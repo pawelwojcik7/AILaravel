@@ -1,0 +1,239 @@
+body {
+  
+    background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.title {
+    text-align: center;
+    background-color: transparent
+}
+
+.table-container {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.box-footer {
+    float: right;
+}
+.navbar
+{
+    background: #a8c0ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #c5b8f8, #82a5f6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #f0edff, #ccd9ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.kontener
+{
+    text-align: center;
+    justify-content: center;
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #c5b8f8, #82a5f6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f0edff, #ccd9ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 10pt;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+}
+#addPost
+{   width: 80%;
+    margin: auto;
+    padding: 5%;
+   
+}
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    color: white;
+    text-align: center;
+}
+
+/* CSS do strony z aktualnościami ("/") */
+#post
+{   margin: auto;
+    width: 80%;
+    background-color: red;
+    text-align: center;
+    margin-bottom: 2%;
+    border-bottom-left-radius: 10pt;
+    border-top-right-radius: 10pt;
+    background: wheat;
+}
+#postKontener
+{  
+    width: 80%;
+     border-bottom-left-radius: 10pt;
+     border-bottom-right-radius: 10pt;
+    margin: auto;
+    padding: 5%;
+    box-shadow: 0px 0px 10px black;
+    background: rgba(255, 255, 255, 0.5);
+    filter: alpha(opacity=50);
+    
+ 
+}
+#postKontenerNaglowek
+{
+margin-bottom: 3%;
+font-size: 20pt;
+text-align: center;
+font-weight: bold;
+
+}
+#postTytul
+{
+    font-size: 15pt;
+    font-weight: bold;
+
+}
+#postTresc
+{   
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 12pt;
+    padding-bottom: 1%;
+
+}
+#parentPost {
+    font-size:18pt;
+    border: 2px;
+ 
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 2%;
+
+}
+#lewaPost {
+    font-weight: bold;
+  overflow: hidden;
+  width: 50%;
+  text-align: center;
+  font-size: 13pt;
+ 
+ 
+}
+#prawaPost {
+    text-align: center;
+  border-left: 1px solid #000;
+  flex:1;
+  font-size: 13pt;
+  }
+  #przyciskiPost
+  { margin: auto;
+      width: 80%;
+      padding-bottom: 2%;
+  }
+  #postDodaj
+  {
+    display: block;
+	margin: auto;
+    width: 50%;
+    margin-bottom: 2%;
+  }
+
+
+
+
+
+
+  /* CSSY do panelu admina */
+  #naglowekPanel
+  {
+      font-size: 14pt;
+      font-weight: bold;
+      text-align: center;
+  }
+  .kontenerPanel
+{
+    text-align: center;
+    justify-content: center;
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #c5b8f8, #82a5f6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f0edff, #ccd9ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 10pt;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    padding-bottom: 2%;
+}
+#tabelaPanel
+{
+    width: 80%;
+    margin: auto;
+    border-radius: 5pt;
+    background-color: wheat;
+    margin-top: 2%;
+  
+}
+
+
+/* CSS  do wyswietalania strony dla niezalogowanych */
+#goscKontener
+{   
+      margin: auto;
+    width: 80%;
+  
+    font-size: 20pt;
+    text-align: center;
+    padding-bottom: 2%;
+    border-radius: 10pt;
+}
+#goscTresc
+{   
+   
+    border-radius: 10pt;
+    padding: 5%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+
+/*CSSY do moje zamówienia */
+#orderKontener
+{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 10pt;
+}
+#order
+{
+    font-size: 16pt;
+  
+}
+#thead
+{    
+    
+   font-weight: bold;
+
+   
+}
+#modalTabela
+{
+    border-style: none;
+    text-align: center;
+    margin: auto;
+}
+
